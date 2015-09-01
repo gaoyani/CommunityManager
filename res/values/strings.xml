@@ -1,0 +1,73 @@
+<resources>
+
+    <string name="app_name">余粮宝</string>
+    <string name="rmb">¥</string>
+    <string name="yuan">元</string>
+    <string name="wu">无</string>
+    <string name="ok">确定</string>
+    <string name="order_total_price">总价：¥ </string>
+    
+    <string name="contact_name">联系人：</string>
+    <string name="contact_number">联系电话：</string>
+    <string name="contact_address">联系地址：</string>
+    <string name="order_remark">订单备注：</string>
+    
+    <string name="menu_user_center">用户中心</string>
+    <string name="menu_community_shopping">社区购物</string>
+    <string name="menu_around_stores">周边商家</string>
+    
+    <string name="password_number_error">请输入六位以上字符密码</string>
+    <string name="password_confirm_error">两次输入的密码不一致，请重新输入</string>
+    <string name="please_input_login_name">请输入登录名</string>
+    <string name="please_input_phone_num">请输入手机号码</string>
+	<string name="please_input_auth_code">请输入验证码</string>
+    <string name="please_input_username">请输入用户名</string>
+    <string name="please_input_email">请输入邮箱地址</string>
+    <string name="please_input_address">请输入联系地址</string>
+    <string name="please_choose_community">请选择所在社区</string>
+    <string name="please_choose_goods">请选择需要购买的商品</string>
+    
+    <string name="input_contact_info">请输入联系人信息</string>
+    
+    <string name="no_community_to_choose">没有可供选择的社区</string>
+    
+    <string name="get_auth_code">获取验证码</string>
+    <string name="get_auth_code_fail">获取验证码失败</string>
+    <string name="second_reget">秒后可重新获取</string>
+	<string name="auth_code_error">验证码错误</string>
+	<string name="auth_code_invalid">验证码失效</string>
+    
+    <string name="hint_user_name">设置登录名…</string>
+    <string name="hint_password">请输入密码…</string>
+    <string name="hint_password_confirm">请再次输入密码…</string>
+    <string name="hint_real_name">请输入用户名…</string>
+    <string name="hint_phone_number">请输入联系电话…</string>
+    <string name="hint_auth_code">请输入验证码…</string>
+    <string name="hint_email">请输入E-mail…</string>
+    <string name="hint_address">请输入联络地址…</string>
+    
+    <string name="login_error">登录失败，请检查用户名或密码</string>
+    <string name="logout_error">注销失败，请重试</string>
+    <string name="regist_error">创建用户失败，请重试</string>
+    <string name="submit_order_error">提交订单失败，请重试</string>
+    <string name="get_community_order_error">获取订单列表失败</string>
+    <string name="get_order_detail_error">获取订单详情失败</string>
+    <string name="order_operation_error">订单操作失败</string>
+    
+    <string name="loading_login">正在登录…</string> 
+    <string name="loading_regist">正在注册…</string> 
+    <string name="loading_load">正在加载…</string> 
+    <string name="loading_submit">正在提交…</string> 
+    
+    <string name="operation_cancel">取消</string> 
+    <string name="operation_pay">付款</string> 
+    <string name="operation_finish">确认收货</string> 
+    
+    <string name="yl_plugin_not_installed">请先安装银联支付服务</string> 
+    <string name="message_order_submit">订单已提交，请等待商家确认</string> 
+    <string name="pay_success">订单支付成功</string>
+    <string name="pay_fail">订单支付失败</string>
+    
+    <string name="exit_app">再按一次返回键退出程序</string> 
+
+</resources>

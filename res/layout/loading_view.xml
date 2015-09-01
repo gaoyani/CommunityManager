@@ -1,0 +1,27 @@
+<com.huiwei.communitymanager.view.LoadingView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#20000000" >
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true" >
+        
+        <TextView
+            android:id="@+id/tv_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="正在加载..."
+            android:textColor="#ff7f7f7f"
+            android:textSize="12sp" />
+        
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:indeterminate="false" />
+    
+    </RelativeLayout>
+
+</com.huiwei.communitymanager.view.LoadingView>

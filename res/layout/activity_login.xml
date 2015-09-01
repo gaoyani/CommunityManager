@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background" >
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/yuliangbao" />
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/iv_icon"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            <ImageView style="@style/splite_line" />
+
+            <include
+                android:id="@+id/view_username"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                layout="@layout/edit_input_view" />
+
+            <include
+                android:id="@+id/view_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                layout="@layout/edit_input_view" />
+
+            <Button
+                android:id="@+id/button_login"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_blue_selector"
+                android:text="登录"
+                style="@style/button" />
+            
+            <Button
+                android:id="@+id/button_regist"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_orange_selector"
+                android:text="注册"
+                style="@style/button" />
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        android:id="@+id/view_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/loading_view"
+        android:visibility="gone" />
+
+</RelativeLayout>

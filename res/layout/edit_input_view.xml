@@ -1,0 +1,46 @@
+<com.huiwei.communitymanager.view.EditInputView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff"
+    android:focusable="true"   
+	android:focusableInTouchMode="true" >
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        style="@style/info_icon"
+        android:layout_centerVertical="true" />
+
+    <EditText
+        android:id="@+id/et_input"
+        style="@style/edit_input"
+        android:layout_above="@+id/iv_split"
+        android:layout_toRightOf="@+id/iv_icon"
+        android:hint="设置登录用户名…" />
+
+    <ImageView
+        android:id="@+id/iv_delete"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/input_delete" />
+
+    <ImageView
+        android:id="@+id/iv_split"
+        style="@style/splite_line"
+        android:layout_alignParentBottom="true" />
+    
+    <ImageView
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background="#ffb0b0b0" />
+    
+    <ImageView
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="#ffb0b0b0" />
+
+</com.huiwei.communitymanager.view.EditInputView>

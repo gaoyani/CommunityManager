@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:background="#ffffffff"
+    android:minHeight="30dp" >
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="100dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="1dp"
+        android:background="#4f000000"
+        android:gravity="center"
+        android:text="商品"
+        android:textColor="#ff000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="80dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="1dp"
+        android:layout_toRightOf="@+id/tv_name"
+        android:background="#4f000000"
+        android:gravity="center"
+        android:text="单价"
+        android:textColor="#ff000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_number"
+        android:layout_width="50dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="1dp"
+        android:layout_toRightOf="@+id/tv_price"
+        android:background="#4f000000"
+        android:gravity="center"
+        android:text="数量"
+        android:textColor="#ff000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_total_price"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_toRightOf="@+id/tv_number"
+        android:background="#4f000000"
+        android:gravity="center"
+        android:text="金额"
+        android:textColor="#ff000000"
+        android:textSize="15sp" />
+
+</RelativeLayout>
